@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plan Itinerary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Create Your Itinerary</h2>
+
+  <label>Destination:</label>
+  <select id="destination">
+    <option value="goa">Goa</option>
+    <option value="manali">Manali</option>
+    <option value="kerala">Kerala</option>
+  </select>
+
+  <br><br>
+
+  <label>Budget (₹):</label>
+  <input type="number" id="budget">
+
+  <br><br>
+
+  <button onclick="generateItinerary()">Generate Plan</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
